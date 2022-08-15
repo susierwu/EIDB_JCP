@@ -1,0 +1,741 @@
+﻿ISIC,uniq_RP,diff_act,CoV
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds",linseed,3,0.061720844
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds","maize grain, feed",3,0.061192783
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds",oat grain,4,0.19562808
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds",peanut,4,0.599419967
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds",protein pea,4,0.657397913
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds",sweet corn,4,0.273547856
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds",barley grain,5,0.252068987
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds",rape seed,6,0.338610156
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds","straw, organic",6,0.039882939
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds",sunflower seed,6,0.680491304
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds",soybean,11,0.96124001
+"0111:Growing of cereals (except rice), leguminous crops and oil seeds",maize grain,13,0.531810249
+0112:Growing of rice,"rice, non-basmati",4,0.402990152
+"0113:Growing of vegetables and melons, roots and tubers",aubergine,3,1.566551083
+"0113:Growing of vegetables and melons, roots and tubers",cabbage white,3,0.5124147
+"0113:Growing of vegetables and melons, roots and tubers",bell pepper,4,0.706410443
+"0113:Growing of vegetables and melons, roots and tubers",carrot,4,0.230856162
+"0113:Growing of vegetables and melons, roots and tubers",white asparagus,4,0.873378148
+"0113:Growing of vegetables and melons, roots and tubers",onion,5,0.419197478
+"0113:Growing of vegetables and melons, roots and tubers",potato,7,0.310331814
+"0113:Growing of vegetables and melons, roots and tubers","tomato, fresh grade",8,0.987313117
+0114:Growing of sugar cane,sugarcane,9,1.517831427
+0116:Growing of fibre crops,seed-cotton,3,0.575290922
+0116:Growing of fibre crops,"jute plant, harvested",4,0.563890903
+0119:Growing of other non-perennial crops,"grass, Swiss integrated production",3,0.466873198
+0119:Growing of other non-perennial crops,"grass, organic",6,0.370034575
+0122:Growing of tropical and subtropical fruits,banana,5,0.622634867
+0123:Growing of citrus fruits,"orange, processing grade",3,0.124124236
+0123:Growing of citrus fruits,lemon,4,1.11840186
+0123:Growing of citrus fruits,mandarin,4,0.893030974
+0123:Growing of citrus fruits,"orange, fresh grade",4,0.372145869
+0124:Growing of pome fruits and stone fruits,peach,4,0.582898324
+0124:Growing of pome fruits and stone fruits,apricot,5,0.239560303
+0124:Growing of pome fruits and stone fruits,pear,5,0.738472675
+0124:Growing of pome fruits and stone fruits,apple,6,0.781984455
+0125:Growing of other tree and bush fruits and nuts,almond,3,0.955825636
+0125:Growing of other tree and bush fruits and nuts,strawberry,7,1.002354352
+0126:Growing of oleaginous fruits,olive,3,0.804404794
+0126:Growing of oleaginous fruits,"coconut, dehusked",4,0.621052533
+0126:Growing of oleaginous fruits,palm fruit bunch,4,1.055391718
+0127:Growing of beverage crops,cocoa bean,4,0.752632832
+0127:Growing of beverage crops,"coffee, green bean",10,0.597887597
+"0128:Growing of spices, aromatic, drug and pharmaceutical crops",mint,3,0.409614378
+0129:Growing of other perennial crops,alfalfa-grass silage,3,0.101717422
+0130:Plant propagation,"eucalyptus seedling, for planting",4,0.249113847
+0130:Plant propagation,"tree seedling, for planting",4,0.625186478
+0130:Plant propagation,"strawberry seedling, for planting",5,0.054637379
+0130:Plant propagation,"tomato seedling, for planting",6,0.080686027
+0141:Raising of cattle and buffaloes,cow milk,3,0.155155308
+0141:Raising of cattle and buffaloes,"operation, housing system, cattle, loose, per animal unit",3,0.533425651
+0141:Raising of cattle and buffaloes,"operation, housing system, cattle, tied, per animal unit",3,0.509991661
+0141:Raising of cattle and buffaloes,"weaned calves, live weight",7,0.380498453
+0141:Raising of cattle and buffaloes,"weaned heifers, live weight",15,0.297173743
+0141:Raising of cattle and buffaloes,"cattle for slaughtering, live weight",27,0.505406198
+0144:Raising of sheep and goats,sheep fleece in the grease,4,0.762531954
+0144:Raising of sheep and goats,"sheep for slaughtering, live weight",4,0.762531953
+0145:Raising of swine/pigs,"operation, housing system, pig, fully-slatted floor, per pig place",3,0.767145797
+0145:Raising of swine/pigs,"operation, housing system, pig, label-certified, per pig place",3,0.303734521
+0161:Support activities for crop production,"fodder loading, by self-loading trailer",3,1.163071719
+0161:Support activities for crop production,"harvesting, by complete harvester, ground crops",3,0.033729789
+0161:Support activities for crop production,"haying, by rotary tedder",3,0.020600486
+0161:Support activities for crop production,"liquid manure spreading, by vacuum tanker",3,0.62664519
+0161:Support activities for crop production,phacelia silage,3,0.08536256
+0161:Support activities for crop production,potato planting,3,0.065658884
+0161:Support activities for crop production,"solid manure loading and spreading, by hydraulic loader and spreader",3,0.425726265
+0161:Support activities for crop production,"swath, by rotary windrower",3,0.385665837
+0161:Support activities for crop production,"tillage, cultivating, chiselling",3,0.183711026
+0161:Support activities for crop production,"tillage, hoeing and earthing-up, potatoes",3,0.571801738
+0161:Support activities for crop production,"tillage, rolling",3,0.012625402
+0161:Support activities for crop production,"organo-mineral nitrogen fertiliser, as N",4,2
+0161:Support activities for crop production,"organo-mineral phosphorus fertiliser, as P2O5",4,2
+0161:Support activities for crop production,ryegrass silage,4,0.096108174
+0161:Support activities for crop production,ryegrass-Egyptian&Persian clover-mixture silage,4,0.181102581
+0161:Support activities for crop production,ryegrass-red&Egyptian clover-mixture silage,4,0.152590608
+0161:Support activities for crop production,sunflower silage,4,0.054804305
+0161:Support activities for crop production,"tillage, ploughing",4,0.069497684
+0161:Support activities for crop production,"tillage, rotary cultivator",4,0.242554153
+0161:Support activities for crop production,"application of plant protection product, by field sprayer",5,0.695098966
+0161:Support activities for crop production,combine harvesting,5,0.371179402
+0161:Support activities for crop production,"fertilising, by broadcaster",5,0.37105726
+0161:Support activities for crop production,"organo-mineral potassium fertiliser, as K2O",5,2.235129496
+0161:Support activities for crop production,"organic nitrogen fertiliser, as N",15,2.0632435
+0161:Support activities for crop production,"organic potassium fertiliser, as K2O",15,2.391605081
+0161:Support activities for crop production,"organic phosphorus fertiliser, as P2O5",16,2.069369195
+0161:Support activities for crop production,"water pump operation, diesel",17,0.007195795
+0161:Support activities for crop production,"inorganic phosphorus fertiliser, as P2O5",29,0.799783222
+0161:Support activities for crop production,irrigation,49,0.683556595
+0163:Post-harvest crop activities,bale loading,3,0.714190076
+0163:Post-harvest crop activities,baling,3,0.262153718
+0163:Post-harvest crop activities,cottonseed,3,0.549965449
+0163:Post-harvest crop activities,drying of feed grain,3,1.388521997
+0163:Post-harvest crop activities,drying of maize grain,3,0.735907425
+0163:Post-harvest crop activities,"fibre, cotton",3,0.549965434
+0163:Post-harvest crop activities,"operation, dried roughage store, air dried, solar",3,0.716601853
+0163:Post-harvest crop activities,"operation, dried roughage store, cold-air dried, conventional",3,0.906981715
+0163:Post-harvest crop activities,"operation, dried roughage store, non ventilated",3,0.207208595
+0163:Post-harvest crop activities,potato grading,3,0.24121874
+0163:Post-harvest crop activities,"mango, conditioned",4,0.203113471
+0220:Logging,"bundle, energy wood, measured as dry mass",6,0.202365352
+0220:Logging,cable yarding,6,0.675493944
+0220:Logging,"pulpwood, hardwood, measured as solid wood under bark",7,0.211763903
+0220:Logging,"sawlog and veneer log, hardwood, measured as solid wood under bark",8,0.735619356
+0220:Logging,"sawlog and veneer log, softwood, measured as solid wood under bark",9,0.516929791
+0311:Marine fishing,antifouling paint emissions,4,0
+0311:Marine fishing,"landed anchovy, fresh",4,1.684346217
+0311:Marine fishing,"demersal fish, fresh",6,0.875253537
+0311:Marine fishing,"fish, marine",6,0.746120771
+0311:Marine fishing,"landed hake, fresh",6,0.651549664
+0510:Mining of hard coal,"hard coal, run-of-mine",4,1.204540203
+0520:Mining of lignite,lignite,3,0.823866404
+0610:Extraction of crude petroleum,petroleum,13,1.072651508
+0620:Extraction of natural gas,"natural gas, liquefied",3,0.206573934
+0710:Mining of iron ores,portafer,3,0.557452057
+0721:Mining of uranium and thorium ores,"uranium, in yellowcake",3,0.086763464
+0721:Mining of uranium and thorium ores,"uranium ore, as U",4,0.742672342
+0729:Mining of other non-ferrous metal ores,barite,3,0.022369561
+0729:Mining of other non-ferrous metal ores,europium oxide,3,0.597251399
+0729:Mining of other non-ferrous metal ores,gadolinium oxide,3,0.008813558
+0729:Mining of other non-ferrous metal ores,"ilmenite, 54% titanium dioxide",3,0.703374046
+0729:Mining of other non-ferrous metal ores,magnesium sulfate,3,0.867973582
+0729:Mining of other non-ferrous metal ores,neodymium oxide,3,0.370665654
+0729:Mining of other non-ferrous metal ores,praseodymium oxide,3,0.177347828
+0729:Mining of other non-ferrous metal ores,samarium oxide,3,0.037208564
+0729:Mining of other non-ferrous metal ores,"stibnite ore, 70% stibnite",3,0.493584734
+0729:Mining of other non-ferrous metal ores,yttrium oxide,3,0.06783904
+0729:Mining of other non-ferrous metal ores,cerium oxide,4,0.161836611
+0729:Mining of other non-ferrous metal ores,"gold, unrefined",4,0.474133207
+0729:Mining of other non-ferrous metal ores,lanthanum oxide,4,0.317548952
+0729:Mining of other non-ferrous metal ores,"zircon, 50% zirconium",4,0.308570087
+0729:Mining of other non-ferrous metal ores,molybdenite,7,0.231388171
+"0810:Quarrying of stone, sand and clay","lime, packed",3,0.709878334
+"0810:Quarrying of stone, sand and clay","limestone, crushed, washed",3,0.268340839
+"0810:Quarrying of stone, sand and clay",anhydrite rock,4,0.470222985
+"0810:Quarrying of stone, sand and clay","limestone, crushed, for mill",4,0.456692973
+"0810:Quarrying of stone, sand and clay","limestone, unprocessed",4,0.230753663
+"0810:Quarrying of stone, sand and clay","gravel, crushed",5,0.378042159
+0891:Mining of chemical and fertilizer minerals,"phosphate rock, beneficiated",4,0.380644932
+09:Mining support service activities,"deep well, drilled, for geothermal power",21,0.395307785
+"1020:Processing and preserving of fish, crustaceans and molluscs","fish oil, from anchovy",8,0.371521566
+1040:Manufacture of vegetable and animal oils and fats,rape meal,3,0.133302722
+1040:Manufacture of vegetable and animal oils and fats,"rape oil, crude",3,0.133302732
+1040:Manufacture of vegetable and animal oils and fats,"vegetable oil, refined",3,0.509676497
+1040:Manufacture of vegetable and animal oils and fats,soybean meal,6,0.656794899
+1040:Manufacture of vegetable and animal oils and fats,"soybean oil, crude",6,0.656794896
+1050:Manufacture of dairy products,"cheese, from cow milk, fresh, unripened",3,0.576934576
+1311:Preparation and spinning of textile fibres,"fibre, jute",3,0.572330154
+1311:Preparation and spinning of textile fibres,stalk,5,0.397249731
+1312:Weaving of textiles,"textile, jute",3,0.216501638
+1312:Weaving of textiles,"textile, woven cotton",4,0.143747829
+1312:Weaving of textiles,"yarn, silk",4,1.137682238
+1313:Finishing of textiles,"batch dyeing, fibre, cotton",3,0.723545951
+1313:Finishing of textiles,"bleaching and dyeing, yarn",3,0.443026599
+1313:Finishing of textiles,"bleaching, textile",3,1.320875679
+1391:Manufacture of knitted and crocheted fabrics,"textile, knit cotton",3,0.120744284
+1399:Manufacture of other textiles n.e.c.,"polar fleece production, energy use only",3,0.777355198
+1610:Sawmilling and planing of wood,"sawnwood, hardwood, dried (u=10%), planed",3,0.197062479
+1610:Sawmilling and planing of wood,"sawnwood, hardwood, dried (u=20%), planed",3,0.147379062
+1610:Sawmilling and planing of wood,"sawnwood, hardwood, raw, dried (u=10%)",3,0.156889415
+1610:Sawmilling and planing of wood,"sawnwood, hardwood, raw, dried (u=20%)",3,0.06471992
+1610:Sawmilling and planing of wood,"sawnwood, paraná pine, dried (u=10%)",3,0.310801101
+1610:Sawmilling and planing of wood,"sawnwood, softwood, dried (u=10%), planed",3,0.194458443
+1610:Sawmilling and planing of wood,"sawnwood, softwood, dried (u=20%), planed",3,0.161098289
+1610:Sawmilling and planing of wood,"sawnwood, softwood, raw, dried (u=10%)",3,0.143252937
+1610:Sawmilling and planing of wood,"sawnwood, softwood, raw, dried (u=20%)",3,0.096560036
+1610:Sawmilling and planing of wood,wood wool,3,0.405806306
+1610:Sawmilling and planing of wood,"sawnwood, beam, hardwood, dried (u=10%), planed",4,0.312322731
+1610:Sawmilling and planing of wood,"sawnwood, beam, hardwood, dried (u=20%), planed",4,0.264421859
+1610:Sawmilling and planing of wood,"sawnwood, beam, hardwood, raw, dried (u=10%)",4,0.30376889
+1610:Sawmilling and planing of wood,"sawnwood, beam, softwood, dried (u=10%), planed",4,0.225683998
+1610:Sawmilling and planing of wood,"sawnwood, beam, softwood, dried (u=20%), planed",4,0.252733641
+1610:Sawmilling and planing of wood,"sawnwood, beam, softwood, raw, dried (u=10%)",4,0.252821771
+1610:Sawmilling and planing of wood,"sawnwood, board, hardwood, dried (u=10%), planed",4,0.32482619
+1610:Sawmilling and planing of wood,"sawnwood, board, hardwood, dried (u=20%), planed",4,0.287821662
+1610:Sawmilling and planing of wood,"sawnwood, board, hardwood, raw, dried (u=10%)",4,0.286227268
+1610:Sawmilling and planing of wood,"sawnwood, board, softwood, dried (u=10%), planed",4,0.22550336
+1610:Sawmilling and planing of wood,"sawnwood, board, softwood, dried (u=20%), planed",4,0.240402773
+1610:Sawmilling and planing of wood,"sawnwood, board, softwood, raw, dried (u=10%)",4,0.269775697
+1610:Sawmilling and planing of wood,"sawnwood, hardwood, raw",4,0.191370289
+1610:Sawmilling and planing of wood,"sawnwood, lath, hardwood, dried (u=10%), planed",4,0.332106148
+1610:Sawmilling and planing of wood,"sawnwood, lath, hardwood, dried (u=20%), planed",4,0.29589794
+1610:Sawmilling and planing of wood,"sawnwood, lath, hardwood, raw, dried (u=10%)",4,0.286227268
+1610:Sawmilling and planing of wood,"sawnwood, lath, softwood, dried (u=10%), planed",4,0.226266868
+1610:Sawmilling and planing of wood,"sawnwood, lath, softwood, dried (u=20%), planed",4,0.239122135
+1610:Sawmilling and planing of wood,"sawnwood, lath, softwood, raw, dried (u=10%)",4,0.269775697
+1610:Sawmilling and planing of wood,"sawnwood, softwood, raw",4,0.379702627
+1610:Sawmilling and planing of wood,"shavings, hardwood, measured as dry mass",4,0.230696429
+1610:Sawmilling and planing of wood,"shavings, softwood, measured as dry mass",4,0.292970019
+1610:Sawmilling and planing of wood,"slab and siding, hardwood, wet, measured as dry mass",4,0.191370289
+1610:Sawmilling and planing of wood,"slab and siding, softwood, wet, measured as dry mass",4,0.379702647
+1610:Sawmilling and planing of wood,bark,8,0.452371004
+1610:Sawmilling and planing of wood,"sawdust, loose, wet, measured as dry mass",8,0.452371004
+1610:Sawmilling and planing of wood,"sawnwood, beam, hardwood, raw, dried (u=20%)",8,0.251391797
+1610:Sawmilling and planing of wood,"sawnwood, beam, softwood, raw, dried (u=20%)",8,0.31433806
+1610:Sawmilling and planing of wood,"sawnwood, board, hardwood, raw, dried (u=20%)",8,0.236907401
+1610:Sawmilling and planing of wood,"sawnwood, board, softwood, raw, dried (u=20%)",8,0.318429947
+1610:Sawmilling and planing of wood,"sawnwood, lath, hardwood, raw, dried (u=20%)",8,0.236907401
+1610:Sawmilling and planing of wood,"sawnwood, lath, softwood, raw, dried (u=20%)",8,0.318429947
+1610:Sawmilling and planing of wood,"shavings, hardwood, loose, measured as dry mass",24,0.282446957
+1621:Manufacture of veneer sheets and wood-based panels,oriented strand board,3,0.389622922
+1621:Manufacture of veneer sheets and wood-based panels,plywood,3,0.364246439
+1621:Manufacture of veneer sheets and wood-based panels,"fibreboard, soft",4,0.478162801
+1621:Manufacture of veneer sheets and wood-based panels,"particleboard, uncoated",4,0.152986688
+1622:Manufacture of builders' carpentry and joinery,"window frame, wood, U=1.5 W/m2K",3,0.152873272
+"1701:Manufacture of pulp, paper and paperboard",core board,3,0.284706113
+"1701:Manufacture of pulp, paper and paperboard","paper, woodcontaining, lightweight coated",3,0.369662395
+"1701:Manufacture of pulp, paper and paperboard","paper, woodcontaining, supercalendered",3,0.426722897
+"1701:Manufacture of pulp, paper and paperboard",solid bleached and unbleached board carton,3,0.506272499
+"1701:Manufacture of pulp, paper and paperboard",tissue paper,3,0.511725317
+"1701:Manufacture of pulp, paper and paperboard","paper, woodfree, coated",4,0.120215847
+"1701:Manufacture of pulp, paper and paperboard","paper, newsprint",6,0.633783964
+"1701:Manufacture of pulp, paper and paperboard","sulfate pulp, bleached",7,0.412925222
+"1701:Manufacture of pulp, paper and paperboard","paper, woodfree, uncoated",8,0.243346186
+1702:Manufacture of corrugated paper and paperboard and of containers of paper a,"carton board box production, with gravure printing",3,0.664552155
+1702:Manufacture of corrugated paper and paperboard and of containers of paper a,"carton board box production, with offset printing",3,0.397848403
+1702:Manufacture of corrugated paper and paperboard and of containers of paper a,corrugated board box,3,0.339469694
+1702:Manufacture of corrugated paper and paperboard and of containers of paper a,"containerboard, fluting medium",5,0.352633974
+1702:Manufacture of corrugated paper and paperboard and of containers of paper a,"containerboard, linerboard",6,0.208093738
+1812:Service activities related to printing,"laminating service, foil, with acrylic binder",3,0.695441749
+1920:Manufacture of refined petroleum products,"ethylene, average",3,1.25888721
+1920:Manufacture of refined petroleum products,"petrol, two-stroke blend",3,0.041406027
+1920:Manufacture of refined petroleum products,petroleum coke,3,0.000592515
+1920:Manufacture of refined petroleum products,propylene,3,1.247627055
+1920:Manufacture of refined petroleum products,"petrol, low-sulfur",4,0.078262789
+1920:Manufacture of refined petroleum products,C3 hydrocarbon mixture,7,0.066797438
+1920:Manufacture of refined petroleum products,base oil,7,0.024989323
+1920:Manufacture of refined petroleum products,"hydrogen, gaseous",7,0.01163476
+1920:Manufacture of refined petroleum products,petroleum slack wax,7,0.017838409
+1920:Manufacture of refined petroleum products,reformate,7,0.008805522
+1920:Manufacture of refined petroleum products,refinery gas,8,0.252211728
+1920:Manufacture of refined petroleum products,naphtha,9,0.148160092
+1920:Manufacture of refined petroleum products,white spirit,9,0.465996432
+1920:Manufacture of refined petroleum products,diesel,13,0.09738234
+1920:Manufacture of refined petroleum products,heavy fuel oil,13,1.122309753
+1920:Manufacture of refined petroleum products,kerosene,14,0.095473244
+1920:Manufacture of refined petroleum products,"petrol, unleaded",14,2.162803566
+1920:Manufacture of refined petroleum products,"diesel, low-sulfur",15,1.689934778
+1920:Manufacture of refined petroleum products,liquefied petroleum gas,15,1.216100827
+19a: Liquid and gaseous fuels from biomass,"bagasse, from sugarcane",4,1.065709282
+19a: Liquid and gaseous fuels from biomass,"sugar, from sugarcane",4,1.144249336
+19a: Liquid and gaseous fuels from biomass,Distiller's Dried Grains with Solubles,6,0.454919435
+19a: Liquid and gaseous fuels from biomass,vegetable oil methyl ester,11,0.876703431
+19a: Liquid and gaseous fuels from biomass,"ethanol, without water, in 99.7% solution state, from fermentation",12,1.214793119
+2011:Manufacture of basic chemicals,ammonium chloride,3,0.928254941
+2011:Manufacture of basic chemicals,"argon, crude, liquid",3,0.92555247
+2011:Manufacture of basic chemicals,carbon monoxide,3,0.909137874
+2011:Manufacture of basic chemicals,cryolite,3,0.252394062
+2011:Manufacture of basic chemicals,de-icer,3,0.460693933
+2011:Manufacture of basic chemicals,"diethyl ether, without water, in 99.95% solution state",3,0.408798202
+2011:Manufacture of basic chemicals,iron sulfate,3,0.564657647
+2011:Manufacture of basic chemicals,"krypton, gaseous",3,0.924353091
+2011:Manufacture of basic chemicals,"nitrogen, liquid",3,0.925552464
+2011:Manufacture of basic chemicals,"oxygen, liquid",3,0.925552468
+2011:Manufacture of basic chemicals,"silicon, multi-Si, casted",3,0.102552531
+2011:Manufacture of basic chemicals,"sodium chlorate, powder",3,0.80819745
+2011:Manufacture of basic chemicals,sodium formate,3,0.393798313
+2011:Manufacture of basic chemicals,"sodium hypochlorite, without water, in 15% solution state",3,0.522586328
+2011:Manufacture of basic chemicals,trichloropropane,3,0.156295035
+2011:Manufacture of basic chemicals,"xenon, gaseous",3,0.924353067
+2011:Manufacture of basic chemicals,acetic anhydride,4,0.114134206
+2011:Manufacture of basic chemicals,citric acid,4,0.389286423
+2011:Manufacture of basic chemicals,"compressed air, 1000 kPa gauge",4,0.479424544
+2011:Manufacture of basic chemicals,"compressed air, 1200 kPa gauge",4,0.348417889
+2011:Manufacture of basic chemicals,ethyl acetate,4,0.556168547
+2011:Manufacture of basic chemicals,formaldehyde,4,0.181418572
+2011:Manufacture of basic chemicals,hydrogen cyanide,4,0.443057057
+2011:Manufacture of basic chemicals,isopropyl acetate,4,0.355621833
+2011:Manufacture of basic chemicals,maleic anhydride,4,0.323547242
+2011:Manufacture of basic chemicals,"neutralising agent, sodium hydroxide-equivalent",4,0.553108853
+2011:Manufacture of basic chemicals,silicon tetrachloride,4,1.098487377
+2011:Manufacture of basic chemicals,"silicon, solar grade",4,0.481401638
+2011:Manufacture of basic chemicals,titanium dioxide,4,0.220129283
+2011:Manufacture of basic chemicals,phenol,5,0.373320016
+2011:Manufacture of basic chemicals,"acetic acid, without water, in 98% solution state",6,0.359915592
+2011:Manufacture of basic chemicals,"compressed air, 600 kPa gauge",6,0.458764485
+2011:Manufacture of basic chemicals,"compressed air, 700 kPa gauge",6,0.4592612
+2011:Manufacture of basic chemicals,formic acid,6,0.843060765
+2011:Manufacture of basic chemicals,"sodium hydroxide, without water, in 50% solution state",7,0.406333677
+2011:Manufacture of basic chemicals,aluminium hydroxide,8,0.555876398
+2011:Manufacture of basic chemicals,fatty alcohol,8,0.199913458
+2011:Manufacture of basic chemicals,"uranium, enriched 3.0%, per separative work unit",8,0.907751565
+2011:Manufacture of basic chemicals,"compressed air, 800 kPa gauge",10,0.608123268
+2011:Manufacture of basic chemicals,"chlorine, gaseous",12,0.709952648
+2011:Manufacture of basic chemicals,"water pump operation, electric",17,0.679141389
+2011a: Manufacture of nuclear fuels,"nuclear fuel element, for boiling water reactor, UO2 4.0% & MOX",3,0.01060443
+2011a: Manufacture of nuclear fuels,"uranium, enriched 4%, in fuel element for light water reactor",3,0.004709726
+2011a: Manufacture of nuclear fuels,"uranium, enriched 3.9%, per separative work unit",7,1.01057012
+2011a: Manufacture of nuclear fuels,"uranium, enriched 4.0%, per separative work unit",7,1.016793721
+2011a: Manufacture of nuclear fuels,"uranium, enriched 4.2%, per separative work unit",7,1.023093177
+2012:Manufacture of fertilizers and nitrogen compounds,"fluosilicic acid, without water, in 22% solution state",3,0.123359441
+2012:Manufacture of fertilizers and nitrogen compounds,potassium chloride,3,0.495142362
+2012:Manufacture of fertilizers and nitrogen compounds,NPK (15-15-15) fertiliser,4,0.287459103
+2012:Manufacture of fertilizers and nitrogen compounds,NPK (26-15-15) fertiliser,4,0.324628127
+2012:Manufacture of fertilizers and nitrogen compounds,ammonium nitrate phosphate,4,0.318979856
+2012:Manufacture of fertilizers and nitrogen compounds,calcium ammonium nitrate,4,0.377838689
+2012:Manufacture of fertilizers and nitrogen compounds,diammonium phosphate,4,0.177308274
+2012:Manufacture of fertilizers and nitrogen compounds,monoammonium phosphate,4,0.206905154
+2012:Manufacture of fertilizers and nitrogen compounds,"phosphoric acid, fertiliser grade, without water, in 70% solution state",4,0.105231206
+2012:Manufacture of fertilizers and nitrogen compounds,potassium nitrate,4,0.260251256
+2012:Manufacture of fertilizers and nitrogen compounds,urea,4,0.40445126
+2012:Manufacture of fertilizers and nitrogen compounds,urea ammonium nitrate mix,4,0.370741259
+2012:Manufacture of fertilizers and nitrogen compounds,ammonium nitrate,6,0.386697484
+2012:Manufacture of fertilizers and nitrogen compounds,"carbon dioxide, in chemical industry",6,0
+2012:Manufacture of fertilizers and nitrogen compounds,"nitric acid, without water, in 50% solution state",10,0.270165328
+2013:Manufacture of plastics and synthetic rubber in primary forms,purified terephthalic acid,3,0.08255822
+2013:Manufacture of plastics and synthetic rubber in primary forms,"polyester resin, unsaturated",4,0.197109227
+2013:Manufacture of plastics and synthetic rubber in primary forms,"polystyrene, extruded",8,0.811231427
+"2023:Manufacture of soap and detergents, cleaning and polishing preparations, pe","alkylbenzene, linear",3,0.060910283
+"2023:Manufacture of soap and detergents, cleaning and polishing preparations, pe",esterquat,4,0.457446392
+"2023:Manufacture of soap and detergents, cleaning and polishing preparations, pe",ethoxylated alcohol (AE3),6,0.142373465
+"2023:Manufacture of soap and detergents, cleaning and polishing preparations, pe",ethoxylated alcohol (AE7),6,0.143470151
+"2023:Manufacture of soap and detergents, cleaning and polishing preparations, pe",fatty alcohol sulfate,8,0.164004218
+2029:Manufacture of other chemical products n.e.c.,"activated carbon, granular",4,0.924235937
+2220:Manufacture of plastics products,blow moulding,3,0.714162865
+2220:Manufacture of plastics products,"extrusion, plastic film",3,0.589271196
+2220:Manufacture of plastics products,"extrusion, plastic pipes",3,0.687600883
+2220:Manufacture of plastics products,injection moulding,3,0.480631614
+2220:Manufacture of plastics products,polymer foaming,3,0.665930251
+2220:Manufacture of plastics products,stretch blow moulding,3,0.866790713
+2220:Manufacture of plastics products,"container, for collection of post-consumer waste plastic for recycling",4,0.206983466
+2220:Manufacture of plastics products,polystyrene foam slab,6,0.713118979
+2310:Manufacture of glass and glass products,"packaging glass, brown",5,0.298954328
+2310:Manufacture of glass and glass products,"packaging glass, green",5,0.4132945
+2310:Manufacture of glass and glass products,"packaging glass, white",5,0.337917243
+2391:Manufacture of refractory products,"refractory material, acid",3,0.701508297
+2392:Manufacture of clay building materials,clay plaster,3,0.292560568
+"2394:Manufacture of cement, lime and plaster","cement, blast furnace slag 18-30% and 18-30% other alternative constituents",3,0.099385525
+"2394:Manufacture of cement, lime and plaster","cement, blast furnace slag 31-50% and 31-50% other alternative constituents",3,0.114424191
+"2394:Manufacture of cement, lime and plaster","cement, blast furnace slag 81-95%",3,0.261948035
+"2394:Manufacture of cement, lime and plaster","cement, blast furnace slag, 66-80%",3,0.179448124
+"2394:Manufacture of cement, lime and plaster","cement, limestone 21-35%",3,0.15509822
+"2394:Manufacture of cement, lime and plaster","cement, pozzolana and fly ash 11-35%",3,0.077447849
+"2394:Manufacture of cement, lime and plaster","lime, hydrated, loose weight",3,0.367390999
+"2394:Manufacture of cement, lime and plaster",plaster mixing,3,1.33558048
+"2394:Manufacture of cement, lime and plaster","quicklime, in pieces, loose",3,0.370015157
+"2394:Manufacture of cement, lime and plaster",cement mortar,4,0.098681604
+"2394:Manufacture of cement, lime and plaster","cement, alternative constituents 21-35%",4,0.05961854
+"2394:Manufacture of cement, lime and plaster","cement, alternative constituents 6-20%",4,0.087281587
+"2394:Manufacture of cement, lime and plaster","cement, blast furnace slag 36-65%",4,0.151969714
+"2394:Manufacture of cement, lime and plaster","cement, pozzolana and fly ash 36-55%",4,0.135608692
+"2394:Manufacture of cement, lime and plaster","cement, Portland",9,0.075458549
+"2394:Manufacture of cement, lime and plaster","cement, unspecified",11,0.110363761
+"2395:Manufacture of articles of concrete, cement and plaster",autoclaved aerated concrete block,3,0.146984273
+"2395:Manufacture of articles of concrete, cement and plaster",concrete block,3,0.355243151
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, 30-32MPa",3,0.049027658
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, for de-icing salt contact",3,0.091481106
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, sole plate and foundation",3,0.093907029
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, 50MPa",4,0.131510162
+"2395:Manufacture of articles of concrete, cement and plaster",lean concrete,4,0.165246185
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, medium strength",6,0.117235469
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, 30MPa",8,0.19962142
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, normal",9,0.334032067
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, 25MPa",10,0.164614006
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, 35MPa",10,0.168179114
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, 40MPa",16,0.184340443
+"2395:Manufacture of articles of concrete, cement and plaster","concrete, 20MPa",20,0.211059172
+2399:Manufacture of other non-metallic mineral products n.e.c.,"bitumen seal, V60",3,0.305448717
+2399:Manufacture of other non-metallic mineral products n.e.c.,"bitumen seal, polymer EP4 flame retardant",3,0.2251241
+2399:Manufacture of other non-metallic mineral products n.e.c.,glass wool mat,4,0.520459983
+239:Manufacture of non-metallic mineral products n.e.c.,ground granulated blast furnace slag,4,0.590600463
+2410:Manufacture of basic iron and steel,"hot rolling, steel",3,0.465099914
+2410:Manufacture of basic iron and steel,iron pellet,3,0.810935713
+2410:Manufacture of basic iron and steel,iron sinter,3,0.094202858
+2410:Manufacture of basic iron and steel,reinforcing steel,3,0.588118103
+2410:Manufacture of basic iron and steel,"steel, low-alloyed",9,0.701342189
+2420:Manufacture of basic precious and other non-ferrous metals,cadmium,3,0.268256435
+2420:Manufacture of basic precious and other non-ferrous metals,"indium rich leaching residues, from zinc production",3,0.439278325
+2420:Manufacture of basic precious and other non-ferrous metals,magnesium,3,0.386082451
+2420:Manufacture of basic precious and other non-ferrous metals,manganese,3,0.876183722
+2420:Manufacture of basic precious and other non-ferrous metals,metal catalyst for catalytic converter,3,0.69031268
+2420:Manufacture of basic precious and other non-ferrous metals,cadmium sludge from zinc electrolysis,4,0.396537113
+2420:Manufacture of basic precious and other non-ferrous metals,"aluminium, cast alloy",5,1.872183488
+2420:Manufacture of basic precious and other non-ferrous metals,"aluminium, wrought alloy",5,1.902619904
+2420:Manufacture of basic precious and other non-ferrous metals,"aluminium oxide, metallurgical",10,0.581881004
+2420:Manufacture of basic precious and other non-ferrous metals,"aluminium oxide, non-metallurgical",11,0.965768558
+2420:Manufacture of basic precious and other non-ferrous metals,"aluminium, primary, liquid",15,0.504433882
+2420:Manufacture of basic precious and other non-ferrous metals,"aluminium, primary, ingot",25,0.436430966
+242:Manufacture of basic precious and other non-ferrous metals,ammonium paratungstate,5,0.092651409
+2592:Treatment and coating of metals; machining,"anodising, aluminium sheet",3,0.607539231
+2592:Treatment and coating of metals; machining,"contouring, brass",3,0.118228304
+2592:Treatment and coating of metals; machining,"contouring, bronze",3,0.104148977
+2592:Treatment and coating of metals; machining,enamelling,3,0.779880112
+2592:Treatment and coating of metals; machining,"laser machining, metal, with CO2-laser, 2000W power",3,0.867937768
+2592:Treatment and coating of metals; machining,"laser machining, metal, with CO2-laser, 2700W power",3,0.880165312
+2592:Treatment and coating of metals; machining,"laser machining, metal, with CO2-laser, 3200W power",3,0.88298184
+2592:Treatment and coating of metals; machining,"laser machining, metal, with CO2-laser, 4000W power",3,0.891762386
+2592:Treatment and coating of metals; machining,"laser machining, metal, with CO2-laser, 5000W power",3,0.894167128
+2592:Treatment and coating of metals; machining,"laser machining, metal, with CO2-laser, 6000W power",3,0.896117017
+2592:Treatment and coating of metals; machining,"laser machining, metal, with YAG-laser, 120W power",3,0.657556943
+2592:Treatment and coating of metals; machining,"laser machining, metal, with YAG-laser, 200W power",3,0.713354596
+2592:Treatment and coating of metals; machining,"laser machining, metal, with YAG-laser, 30W power",3,0.547657581
+2592:Treatment and coating of metals; machining,"laser machining, metal, with YAG-laser, 330W power",3,0.773967096
+2592:Treatment and coating of metals; machining,"laser machining, metal, with YAG-laser, 40W power",3,0.547657581
+2592:Treatment and coating of metals; machining,"laser machining, metal, with YAG-laser, 500W power",3,0.773967096
+2592:Treatment and coating of metals; machining,"laser machining, metal, with YAG-laser, 50W power",3,0.574046879
+2592:Treatment and coating of metals; machining,"laser machining, metal, with YAG-laser, 60W power",3,0.5803661
+2592:Treatment and coating of metals; machining,"selective coat, copper sheet, black chrome",3,0.451956774
+2592:Treatment and coating of metals; machining,"selective coat, copper sheet, black majic",3,0.151842858
+2592:Treatment and coating of metals; machining,"selective coat, copper sheet, physical vapour deposition",3,0.728444611
+2592:Treatment and coating of metals; machining,"selective coat, copper sheet, sputter deposition",3,0.514010517
+2592:Treatment and coating of metals; machining,"welding, arc, aluminium",3,0.095222927
+"25:Manufacture of fabricated metal products, except machinery and equipment","energy and auxilliary inputs, metal working factory",8,0.206793327
+"25:Manufacture of fabricated metal products, except machinery and equipment","energy and auxilliary inputs, metal working machine",8,0.226742885
+2790:Manufacture of other electrical equipment,"anode, paste, for aluminium electrolysis",8,0.363200739
+2790:Manufacture of other electrical equipment,"anode, prebake, for aluminium electrolysis",10,0.174114243
+2817:Manufacture of office machinery and equipment (except computers and periphe,"toner module, laser printer, black/white",3,0.283707269
+2817:Manufacture of office machinery and equipment (except computers and periphe,"toner module, laser printer, colour",3,0.277228789
+28:Manufacture of machinery and equipment n.e.c.,"geothermal power plant, 5.5MWel",9,0.492291517
+2920:Manufacture of bodies (coachwork) for motor vehicles; manufacture of traile,"operation, intermodal shipping container",4,0.248398757
+"3510:Electric power generation, transmission and distribution","natural gas, burned in gas motor, for storage",6,0.046894143
+"3510:Electric power generation, transmission and distribution","electricity, medium voltage, aluminium industry",10,0.795328049
+"3510:Electric power generation, transmission and distribution","electricity, high voltage, aluminium industry",27,0.966729816
+3520:Manufacture of gas; distribution of gaseous fuels through mains,synthetic gas,4,0.385649067
+3530:Steam and air conditioning supply,"heat, air-water heat pump 10kW",3,0.679207405
+3530:Steam and air conditioning supply,"heat, borehole heat pump",3,0.677372902
+3530:Steam and air conditioning supply,"heat, central or small-scale, biomethane",3,0.30445916
+3530a: Steam and air conditioning supply based on liquid fuels ,"heavy fuel oil, burned in refinery furnace",3,0.015906526
+"3600:Water collection, treatment and supply","water, completely softened",3,0.295624554
+"3600:Water collection, treatment and supply","water, deionised",3,0.15730558
+"3600:Water collection, treatment and supply","water, ultrapure",3,0.820558974
+"3600:Water collection, treatment and supply",tap water,54,1.98934083
+3700:Sewerage,rainwater mineral oil storage,3,-0.084725195
+3700:Sewerage,wastewater from pig iron production,3,-0.038258019
+3811:Collection of non-hazardous waste,"waste polyethylene terephthalate, for recycling, sorted",4,0.575196791
+3811:Collection of non-hazardous waste,"waste polyethylene, for recycling, sorted",4,0.599530934
+3821:Treatment and disposal of non-hazardous waste,aluminium in car shredder residue,3,-0.176352999
+3821:Treatment and disposal of non-hazardous waste,basic oxygen furnace dust,3,-1.732050808
+3821:Treatment and disposal of non-hazardous waste,basic oxygen furnace secondary metallurgy slag,3,-1.732050808
+3821:Treatment and disposal of non-hazardous waste,basic oxygen furnace slag,3,-1.732050808
+3821:Treatment and disposal of non-hazardous waste,basic oxygen furnace sludge,3,-1.732050808
+3821:Treatment and disposal of non-hazardous waste,blast furnace dust,3,-1.732050808
+3821:Treatment and disposal of non-hazardous waste,coating from waste cathode ray tube display,3,-0.2318631
+3821:Treatment and disposal of non-hazardous waste,copper in car shredder residue,3,-0.200620876
+3821:Treatment and disposal of non-hazardous waste,electric arc furnace secondary metallurgy slag,3,-1.732050808
+3821:Treatment and disposal of non-hazardous waste,lead in car shredder residue,3,-0.367707952
+3821:Treatment and disposal of non-hazardous waste,"operation, liquid manure storage and processing facility",3,1.284538356
+3821:Treatment and disposal of non-hazardous waste,"process-specific burdens, municipal waste incineration",3,0.16502033
+3821:Treatment and disposal of non-hazardous waste,"process-specific burdens, slag landfill",3,0.024097694
+3821:Treatment and disposal of non-hazardous waste,"residue from mechanical treatment, IT accessory",3,-0.012490967
+3821:Treatment and disposal of non-hazardous waste,"residue from mechanical treatment, cathode ray tube display",3,-0.012598365
+3821:Treatment and disposal of non-hazardous waste,"residue from mechanical treatment, desktop computer",3,-0.01289552
+3821:Treatment and disposal of non-hazardous waste,"residue from mechanical treatment, industrial device",3,-0.012351258
+3821:Treatment and disposal of non-hazardous waste,"residue from mechanical treatment, laptop computer",3,-0.012436571
+3821:Treatment and disposal of non-hazardous waste,"residue from mechanical treatment, laser printer",3,-0.012534002
+3821:Treatment and disposal of non-hazardous waste,"residue from mechanical treatment, liquid crystal display",3,-0.012504886
+3821:Treatment and disposal of non-hazardous waste,residue from shredder fraction from manual dismantling,3,-0.086792217
+3821:Treatment and disposal of non-hazardous waste,spent anion exchange resin from potable water production,3,-0.045062709
+3821:Treatment and disposal of non-hazardous waste,spent cation exchange resin from potable water production,3,-0.007268021
+3821:Treatment and disposal of non-hazardous waste,steel in car shredder residue,3,-0.193925452
+3821:Treatment and disposal of non-hazardous waste,used liquid crystal display module,3,-0.046377063
+3821:Treatment and disposal of non-hazardous waste,waste bitumen,3,-0.012905761
+3821:Treatment and disposal of non-hazardous waste,waste bitumen sheet,3,-0.006870192
+3821:Treatment and disposal of non-hazardous waste,"waste building wood, chrome preserved",3,-0.203887867
+3821:Treatment and disposal of non-hazardous waste,"waste cement-fibre slab, dismantled",3,-0.06412774
+3821:Treatment and disposal of non-hazardous waste,waste concrete,3,-0.122284913
+3821:Treatment and disposal of non-hazardous waste,waste expanded polystyrene,3,-0.005578758
+3821:Treatment and disposal of non-hazardous waste,"waste mineral wool, for final disposal",3,-0.122284913
+3821:Treatment and disposal of non-hazardous waste,"waste plastic, industrial electronics",3,-0.012775207
+3821:Treatment and disposal of non-hazardous waste,waste polyethylene/polypropylene product,3,-0.625217792
+3821:Treatment and disposal of non-hazardous waste,"waste polystyrene isolation, flame-retardant",3,-0.001064618
+3821:Treatment and disposal of non-hazardous waste,waste polyvinylchloride product,3,-0.643255684
+3821:Treatment and disposal of non-hazardous waste,waste polyvinylfluoride,3,-0.022345241
+3821:Treatment and disposal of non-hazardous waste,"waste sealing sheet, polyethylene",3,-0.004880686
+3821:Treatment and disposal of non-hazardous waste,"waste sealing sheet, polyvinylchloride",3,-0.034266576
+3821:Treatment and disposal of non-hazardous waste,"waste vapour barrier, flame-retarded",3,-0.006961035
+3821:Treatment and disposal of non-hazardous waste,waste wire plastic,3,-0.036150384
+3821:Treatment and disposal of non-hazardous waste,"waste wood pole, chrome preserved",3,-0.195901017
+3821:Treatment and disposal of non-hazardous waste,zinc in car shredder residue,3,-0.322635699
+3821:Treatment and disposal of non-hazardous waste,electric arc furnace slag,4,-1.158939834
+3821:Treatment and disposal of non-hazardous waste,scrap aluminium,4,-0.082523642
+3821:Treatment and disposal of non-hazardous waste,scrap copper,4,-0.02188092
+3821:Treatment and disposal of non-hazardous waste,scrap tin sheet,4,-0.144709804
+3821:Treatment and disposal of non-hazardous waste,"waste plastic plaster, for final disposal",4,-0.547438319
+3821:Treatment and disposal of non-hazardous waste,raw sewage sludge,5,-0.853662799
+3821:Treatment and disposal of non-hazardous waste,compost,6,0
+3821:Treatment and disposal of non-hazardous waste,waste gypsum,6,-0.510275624
+3821:Treatment and disposal of non-hazardous waste,"waste plastic, consumer electronics",6,-0.719544788
+3821:Treatment and disposal of non-hazardous waste,biogas,8,1.279779673
+3821:Treatment and disposal of non-hazardous waste,"wood ash mixture, pure",10,-0.630320203
+3821:Treatment and disposal of non-hazardous waste,waste glass,16,-3.131368954
+3821:Treatment and disposal of non-hazardous waste,waste graphical paper,16,-0.614860573
+3821:Treatment and disposal of non-hazardous waste,waste polyethylene,16,-1.46764603
+3821:Treatment and disposal of non-hazardous waste,waste polyethylene terephthalate,16,-1.471337607
+3821:Treatment and disposal of non-hazardous waste,waste polypropylene,16,-1.46861642
+3821:Treatment and disposal of non-hazardous waste,waste polystyrene,16,-1.467574619
+3821:Treatment and disposal of non-hazardous waste,waste polyvinylchloride,16,-1.527695639
+3821:Treatment and disposal of non-hazardous waste,waste paperboard,18,-0.752171508
+3821:Treatment and disposal of non-hazardous waste,waste polyurethane,18,-1.611195972
+3822:Treatment and disposal of hazardous waste,ash from paper production sludge,3,-0.174578599
+3822:Treatment and disposal of hazardous waste,conditioned spent nuclear fuel,3,-0.227490052
+3822:Treatment and disposal of hazardous waste,low level radioactive waste,3,-1.60195658
+3822:Treatment and disposal of hazardous waste,"process-specific burdens, residual material landfill",3,0.111563021
+3822:Treatment and disposal of hazardous waste,"waste cement, hydrated",3,-0.174578599
+3822:Treatment and disposal of hazardous waste,spent antifreezer liquid,4,-0.009161152
+3822:Treatment and disposal of hazardous waste,"sulfidic tailings, from nickel mine operation",4,0
+3822:Treatment and disposal of hazardous waste,"sulfidic tailings, from silver mine operation",4,0
+3822:Treatment and disposal of hazardous waste,used capacitor,4,-0.013295342
+3822:Treatment and disposal of hazardous waste,spent nuclear fuel,5,-0.696577418
+3822:Treatment and disposal of hazardous waste,bilge oil,6,-0.008524257
+3822:Treatment and disposal of hazardous waste,fly ash and scrubber sludge,6,-0.009815774
+3822:Treatment and disposal of hazardous waste,"hazardous waste, for incineration",6,-0.005121664
+3822:Treatment and disposal of hazardous waste,"sulfidic tailings, from zinc-lead mine operation",8,0
+3822:Treatment and disposal of hazardous waste,"sulfidic tailings, from copper mine operation",11,0
+3822:Treatment and disposal of hazardous waste,"sulfidic tailings, from gold mine operation",13,0
+382:Waste treatment and disposal,used refrigerant R134a,3,-1.721443118
+3830:Materials recovery,"tinplate scrap, sorted",3,0.862863244
+3830:Materials recovery,used desktop computer,3,-0.101116827
+3830:Materials recovery,"used printer, laser",3,-0.10757057
+3830:Materials recovery,"waste bulk iron, excluding reinforcement",3,-0.711727314
+3830:Materials recovery,"waste paperboard, sorted",3,0.744046642
+3830:Materials recovery,"polyethylene terephthalate, granulate, amorphous, recycled",4,0.463283921
+3830:Materials recovery,"polyethylene, high density, granulate, recycled",4,0.123740871
+3830:Materials recovery,"aluminium scrap, post-consumer, prepared for melting",8,1.268607405
+3830:Materials recovery,"iron scrap, sorted, pressed",8,0.679138953
+4100:Construction of buildings,nuclear fuel factory,3,0.005225019
+4100:Construction of buildings,uranium conversion facility,3,0.001411318
+4100:Construction of buildings,uranium enrichment centrifuge facility,3,0.004548519
+4100:Construction of buildings,"greenhouse, glass walls and roof",4,0.042528223
+4100:Construction of buildings,"greenhouse, plastic walls and roof",4,0.10969319
+4210:Construction of roads and railways,road maintenance,3,0.698934043
+4220:Construction of utility projects,"pipeline, natural gas, high pressure distribution network",3,0.087710301
+4220:Construction of utility projects,"wastewater treatment facility, capacity 1.1E10l/year",3,0.693224164
+4220:Construction of utility projects,"wastewater treatment facility, capacity 1.6E8l/year",3,0.892135022
+4220:Construction of utility projects,"wastewater treatment facility, capacity 1E9l/year",3,0.132925301
+4220:Construction of utility projects,"wastewater treatment facility, capacity 5E9l/year",3,0.503616669
+4220:Construction of utility projects,"water works, capacity 1.1E10l/year",14,0.592195473
+"4220a: Construction of utility projects for electricity production, except for liquid fuels","distribution network, electricity, low voltage",3,0.124969409
+"4220a: Construction of utility projects for electricity production, except for liquid fuels","hydropower plant, reservoir",3,0.544691105
+"4220a: Construction of utility projects for electricity production, except for liquid fuels","transmission network, electricity, high voltage",3,0.860045258
+"4220a: Construction of utility projects for electricity production, except for liquid fuels","transmission network, electricity, medium voltage",3,0.63898817
+"4220a: Construction of utility projects for electricity production, except for liquid fuels","hydropower plant, run-of-river",4,1.194249438
+"4220a: Construction of utility projects for electricity production, except for liquid fuels","nuclear power plant, boiling water reactor 1000MW",4,0.309709149
+"4220a: Construction of utility projects for electricity production, except for liquid fuels","used nitrate salts, for solar power application",4,0.181714925
+"4220a: Construction of utility projects for electricity production, except for liquid fuels","nuclear power plant, pressure water reactor 1000MW",6,0.370004723
+4290:Construction of other civil engineering projects,"mine infrastructure, gold and silver",3,0
+4290:Construction of other civil engineering projects,"mine infrastructure, phosphate rock",3,0.336729344
+4290:Construction of other civil engineering projects,nuclear spent fuel conditioning facility,3,0.024732588
+4290:Construction of other civil engineering projects,sawmill,3,0.325186153
+4290:Construction of other civil engineering projects,"mine infrastructure, gold",6,0.032442
+"4322:Plumbing, heat and air-conditioning installation","ventilation of dwellings, central, 1 x 720 m3/h",4,0.696806427
+"4322:Plumbing, heat and air-conditioning installation","ventilation of dwellings, decentralized, 6 x 120 m3/h",8,0.624630117
+"4322:Plumbing, heat and air-conditioning installation",energy saving,12,0.619206891
+4520:Maintenance and repair of motor vehicles,"maintenance, lorry 16 metric ton",3,0.41452245
+4912:Freight rail transport,"transport, freight train",20,0.66871954
+4923:Freight transport by road,"transport, freight, light commercial vehicle",4,0.401102773
+4923:Freight transport by road,"transport, freight, lorry with refrigeration machine, cooling",8,0.069573152
+4923:Freight transport by road,"transport, freight, lorry with refrigeration machine, freezing",8,0.069573152
+4923:Freight transport by road,"transport, freight, lorry, unspecified",11,0.044621272
+4930:Transport via pipeline,"transport, pipeline, long distance, natural gas",5,0.457603935
+6110:Wired telecommunications activities,"operation, computer, laptop, videoconference",3,0.493860961
+68:Real estate activities,"land use change, forest, intensive",12,10.17744586
+68:Real estate activities,"land use change, pasture, man made",19,1.063388128
+68:Real estate activities,"land tenure, arable land, measured as carbon net primary productivity, forest, intensive",44,-7.579815195
+68:Real estate activities,"land use change, annual crop",47,1.239587509
+68:Real estate activities,"land use change, perennial crop",53,4.301199336
+68:Real estate activities,"land tenure, arable land, measured as carbon net primary productivity, pasture, man made",69,1.633374767
+68:Real estate activities,"land tenure, arable land, measured as carbon net primary productivity, annual crop",150,1.422142462
+68:Real estate activities,"land tenure, arable land, measured as carbon net primary productivity, perennial crop",175,10.78637493
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, laptop, 68% active work",3,0.201877467
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, laptop, 68% active work with internet access 0.2 Mbit/s",3,0.280061792
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, laptop, video mode",3,0.365751698
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, desktop, with cathode ray tube display, active mode",4,0.811772398
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, desktop, with cathode ray tube display, off mode",4,0.109656185
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, desktop, with cathode ray tube display, standby mode",4,0.535761537
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, desktop, with liquid crystal display, active mode",4,0.682836104
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, desktop, with liquid crystal display, off mode",4,0.075675783
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, desktop, with liquid crystal display, standby mode",4,0.418486098
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, laptop, 23% active work",4,0.262144589
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, laptop, active mode",4,0.588516616
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, laptop, off mode",4,0.096858453
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, laptop, standby/sleep mode",4,0.223635641
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, desktop, home use",8,0.348106931
+"8219:Photocopying, document preparation and other specialized office support act","operation, computer, desktop, office use",8,0.441815514
+"8219:Photocopying, document preparation and other specialized office support act",printed paper,8,0.156460649
+various_ISIC,1-butanol,3,0.790155936
+various_ISIC,1-propanol,3,0.829087111
+various_ISIC,bronze,3,0.859596758
+various_ISIC,butyl acrylate,3,1.126373753
+various_ISIC,coal tar,3,0.544745446
+various_ISIC,coke,3,0.405445582
+various_ISIC,copper cake,3,0.386161653
+various_ISIC,"electricity, low voltage, label-certified",3,0.718514647
+various_ISIC,ethane,3,0.688213225
+various_ISIC,"ethanol, without water, in 99.7% solution state, from ethylene",3,0.99410458
+various_ISIC,"heat, from steam, in chemical industry",3,0.503115126
+various_ISIC,isobutanol,3,0.790155936
+various_ISIC,lithium carbonate,3,0.866740255
+various_ISIC,"pesticide, unspecified",3,0.459502191
+various_ISIC,propane,3,0.739399039
+various_ISIC,refrigerant R134a,3,0.866229661
+various_ISIC,"rosin size, for paper production",3,0.438304578
+various_ISIC,selenium,3,0.374353703
+various_ISIC,silica sand,3,0.733709125
+various_ISIC,"sodium chloride, powder",3,1.285621044
+various_ISIC,spent oxychlor catalyst,3,-0.751635255
+various_ISIC,uranium hexafluoride,3,0.03136155
+various_ISIC,waste gypsum plasterboard,3,-0.553936852
+various_ISIC,"waste paper, sorted",3,0.679118095
+various_ISIC,waste plaster-cardboard sandwich,3,-0.659459373
+various_ISIC,waste reinforced plasterboard,3,-1.520153305
+various_ISIC,whey,3,0.091608155
+various_ISIC,"yarn, jute",3,0.250894241
+various_ISIC,zinc monosulfate,3,0.371211634
+various_ISIC,zinc sulfide,3,0.287221022
+various_ISIC,benzene,4,0.190388129
+various_ISIC,"calcium carbonate, precipitated",4,0.693995386
+various_ISIC,"chlorine, liquid",4,0.725936965
+various_ISIC,cobalt,4,1.244497167
+various_ISIC,drilling waste,4,-0.823396265
+various_ISIC,electric arc furnace dust,4,-1.158939834
+various_ISIC,limestone residue,4,-1.168532981
+various_ISIC,maize silage,4,0.318863734
+various_ISIC,methylcyclohexane,4,0.780825859
+various_ISIC,"miscanthus, chopped",4,0.959594942
+various_ISIC,platinum,4,1.592542154
+various_ISIC,pyrite ash,4,0
+various_ISIC,"quicklime, milled, loose",4,0.728374551
+various_ISIC,rhodium,4,1.59254214
+various_ISIC,silicon carbide,4,1.200470011
+various_ISIC,"soil pH raising agent, as CaCO3",4,2
+various_ISIC,spent catalytic converter NOx reduction,4,-1.154721359
+various_ISIC,sugar beet pulp,4,0.453215156
+various_ISIC,triethylene glycol,4,1.176128637
+various_ISIC,"used vegetable cooking oil, purified",4,1.05543163
+various_ISIC,waste cement-fibre slab,4,-0.763901821
+various_ISIC,"waste emulsion paint, on wall",4,-1.058194222
+various_ISIC,waste glass pane in burnable frame,4,-0.392000249
+various_ISIC,waste mineral plaster,4,-0.334290556
+various_ISIC,waste paint on metal,4,-1.976693295
+various_ISIC,waste paint on wall,4,-1.041191158
+various_ISIC,waste polyurethane seal,4,-1.135376014
+various_ISIC,zinc,4,0.997565974
+various_ISIC,butane,5,0.827774694
+various_ISIC,calcium chloride,5,0.543181671
+various_ISIC,"chemical, organic",5,1.832923584
+various_ISIC,"gypsum, mineral",5,0.86328336
+various_ISIC,lead concentrate,5,0.649096781
+various_ISIC,methyl ethyl ketone,5,1.232624294
+various_ISIC,pentane,5,0.48470503
+various_ISIC,pig iron,5,0.487683485
+various_ISIC,"polyethylene terephthalate, granulate, bottle grade",5,0.597672069
+various_ISIC,sowing,5,0.478734965
+various_ISIC,"sulfur dioxide, liquid",5,0.320649649
+various_ISIC,"tea, dried",5,1.099293863
+various_ISIC,"uranium, enriched 3.8%, in fuel element for light water reactor",5,0.009883941
+various_ISIC,"waste textile, soiled",5,-1.20660928
+various_ISIC,zinc concentrate,5,0.734871725
+various_ISIC,ammonium sulfate,6,0.434857475
+various_ISIC,hydrogen fluoride,6,0.684575836
+various_ISIC,iron ore concentrate,6,1.31245942
+various_ISIC,lime,6,1.01827531
+various_ISIC,maize starch,6,0.327565644
+various_ISIC,palladium,6,1.944130552
+various_ISIC,"polyethylene, high density, granulate",6,0.601925769
+various_ISIC,"rutile, 95% titanium dioxide",6,0.279462482
+various_ISIC,"sewage sludge, dried",6,0
+various_ISIC,sludge from pulp and paper production,6,-0.911298721
+various_ISIC,sugar beet,6,0.416259466
+various_ISIC,used tyre,6,-2.449489743
+various_ISIC,waste cement in concrete and mortar,6,-0.172053433
+various_ISIC,waste concrete gravel,6,-0.473728713
+various_ISIC,waste glass sheet,6,-0.404931494
+various_ISIC,waste reinforcement steel,6,-0.070760599
+various_ISIC,"waste rubber, unspecified",6,-0.774603641
+various_ISIC,"yarn, cotton",6,0.138996505
+various_ISIC,"copper, anode",7,0.064289339
+various_ISIC,"electricity, high voltage, label-certified",7,1.378875066
+various_ISIC,lead,7,1.130562943
+various_ISIC,nickel smelter slag,7,-1.738539559
+various_ISIC,"polyethylene terephthalate, granulate, amorphous",7,0.546169847
+various_ISIC,sand,7,0.302477501
+various_ISIC,soap,7,0.630640883
+various_ISIC,"sodium sulfate, anhydrite",7,1.357084996
+various_ISIC,waste brick,7,-0.467325382
+various_ISIC,"wood pellet, measured as dry mass",7,0.406479043
+various_ISIC,"fishmeal, 63-65% protein",8,0.80116548
+various_ISIC,"nickel, class 1",8,1.033344711
+various_ISIC,"pulpwood, softwood, measured as solid wood under bark",8,0.709651921
+various_ISIC,"sawdust, wet, measured as dry mass",8,0.877902195
+various_ISIC,"solvent, organic",8,0.746236569
+various_ISIC,"uranium, enriched 3.8%, per separative work unit",8,0.950075937
+various_ISIC,blast furnace sludge,9,-1.503960721
+various_ISIC,fatty acid,9,0.49589107
+various_ISIC,"heat, future",9,0.874935884
+various_ISIC,inert waste,9,-1.515467857
+various_ISIC,scrap steel,9,-0.717631052
+various_ISIC,"waste concrete, not reinforced",9,-0.451436716
+various_ISIC,waste mineral wool,9,-1.054366254
+various_ISIC,waste reinforced concrete,9,-0.378232011
+various_ISIC,"biomethane, high pressure",10,0.558790253
+various_ISIC,clinker,10,0.056759718
+various_ISIC,spent solvent mixture,10,-0.860671493
+various_ISIC,"acetone, liquid",11,0.894290706
+various_ISIC,biowaste,11,-1.587543612
+various_ISIC,pitch,11,1.487948611
+various_ISIC,"tall oil, crude",11,0.325765542
+various_ISIC,waste mineral oil,11,-0.957427549
+various_ISIC,wheat grain,11,0.505676124
+various_ISIC,"hydrochloric acid, without water, in 30% solution state",12,0.705433594
+various_ISIC,refinery sludge,12,-0.765241261
+various_ISIC,silver,12,1.059719528
+various_ISIC,"transport, passenger train",13,0.610974116
+various_ISIC,glycerine,14,0.820505063
+various_ISIC,"residual hardwood, wet",14,0.530548715
+various_ISIC,"wastewater, average",14,-0.662052808
+various_ISIC,"water, decarbonised",14,2.653288107
+various_ISIC,light fuel oil,15,0.272637023
+various_ISIC,"ammonia, anhydrous, liquid",16,0.52371599
+various_ISIC,"copper concentrate, sulfide ore",16,0.341051955
+various_ISIC,straw,16,0.463443221
+various_ISIC,turpentine,16,0.510146673
+various_ISIC,waste emulsion paint,16,-0.902096483
+various_ISIC,"wood chips, dry, measured as dry mass",16,0.806299063
+various_ISIC,gold,17,0.984270587
+various_ISIC,"residual softwood, wet",17,0.401268784
+various_ISIC,sulfur,17,1.532671278
+various_ISIC,"hydrogen, liquid",18,0.902034461
+various_ISIC,lignite ash,18,-2.000351216
+various_ISIC,sulfuric acid,18,1.070346825
+various_ISIC,"copper, cathode",19,0.930492656
+various_ISIC,"inorganic potassium fertiliser, as K2O",19,0.885435196
+various_ISIC,"cleft timber, measured as dry mass",20,0.770443367
+various_ISIC,mischmetal,20,3.080083184
+various_ISIC,waste paint,21,-1.086368184
+various_ISIC,"waste plastic, mixture",22,-1.821455223
+various_ISIC,"wood chips, wet, measured as dry mass",22,0.331832139
+various_ISIC,"ethanol, without water, in 95% solution state, from fermentation",24,1.191175584
+various_ISIC,supplementary cementitious materials,25,2.009766982
+various_ISIC,"waste wood, untreated",25,-0.937507077
+various_ISIC,"shavings, softwood, loose, measured as dry mass",26,0.232016089
+various_ISIC,"steam, in chemical industry",26,0.771146124
+various_ISIC,"bark chips, wet, measured as dry mass",27,0.786210544
+various_ISIC,"heat, central or small-scale, natural gas",27,0.488594117
+various_ISIC,"residual wood, dry",34,0.894166944
+various_ISIC,hard coal,39,0.504965232
+various_ISIC,"energy feed, gross",40,0.911663291
+various_ISIC,"protein feed, 100% crude",46,0.900857054
+various_ISIC,municipal solid waste,49,-0.400851804
+various_ISIC,"inorganic nitrogen fertiliser, as N",54,0.511783301
+various_ISIC,hard coal ash,61,-2.771861377
+various_ISIC,"natural gas, high pressure",75,1.141868138

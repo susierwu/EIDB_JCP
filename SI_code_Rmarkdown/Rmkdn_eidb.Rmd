@@ -1,0 +1,274 @@
+---
+title: "EIDB_within_product_CoV"
+resource_files:
+- images/aubergine.png
+- images/drying_grain.png
+- images/lemon.png
+- images/plaster_mixing.png
+- images/silk.png
+- images/Na2SO4.png
+- images/sugarcane.png
+runtime: shiny
+output:
+  flexdashboard::flex_dashboard:
+    navbar:
+    - align: right
+      href: mailto:info@susdatability.com
+      icon: fa-envelope
+      title: Contact
+    orientation: columns
+    theme: readable
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+#knitr::opts_chunk$set(echo = TRUE)
+library(flexdashboard)
+library(tidyr)
+library(forcats)
+library(rio)
+library(lubridate)
+library(htmltools)
+library(ggplot2)
+library(ggrepel)
+library(dplyr)
+library(hrbrthemes)
+library(colorspace)
+library(shiny)
+library(shinydashboardPlus)
+library(dashboardthemes)
+library(rintrojs)
+library(shinyBS)
+library(shinycssloaders)
+library(shinyjs)
+library(shinyMatrix)
+library(shinyWidgets)
+library(tigris) 
+options(tigris_use_cache = TRUE)
+```
+
+
+```{r global, include=FALSE}
+ # load data  
+ data <- read.csv("eidb_cutoff_740uniprod_GWP_wh_COV_Rplot.csv", header = T, stringsAsFactors = FALSE)
+ showtable <- read.csv("eidb_cutoff_740uniprod_showtable.csv", header = T, encoding = "UTF-8", stringsAsFactors = FALSE )
+ over3Calc <- read.csv("eidb_cutoff_over3uniprod_GWP_4eachAct.csv", header = T)
+ uniq_ISIC =unique(data[c("ISIC")])  
+```
+
+
+Introduction {data-orientation=columns }
+=====================================  
+Column {} 
+-----------------------------------------------------------------------
+### Introduction
+
+According to the ecoinvent v3.7.1, a total of 19128 datasets are listed under the cut-off version <a href="https://www.ecoinvent.org/support/documents-and-files/information-on-ecoinvent-3/information-on-ecoinvent-3.html">'Activity Overview for ecoinvent v3.7.1, Cut-Off'</a>. Many of the reference products (RPs) only have one activity (act) involved, while others have multiple ones (e.g., 'electricity, high voltage') due to different production technolgies, locations, time scope etc. 
+
+To enable ecoinvent database (EIDB) users understand the within-product variation due to the different activities for a same RP, and to promote a more transparent disclosure of background EIDB processes being applied in an LCA study, following analysis has been conducted: 
+
+1. Identify unique RPs with at least three different activities (act). Among the total four types of activity, i.e., 'market activity', 'market group', 'ordinary transforming activity', and 'production mix', the first two are excluded because <a href="https://www.ecoinvent.org/support/faqs/methodology-of-ecoinvent-3/what-is-an-activity-in-ecoinvent-version-3.html">"market activity does not transform inputs"</a>. For the 'production mix' type of activity, they all belong to the 'electricity, high voltage' and also excluded (reasons explained in step 3). Consequently, by selecting only 'ordinary transforming activity' from the EIDB cut-off database, a total of 13017 RPs out of the original 19128 datasets can be identified.
+
+2. A further screening on the 13017 RPs leads to 12939 ones with applicable ISIC number while the remaining 78 RPs are scrap/waste products (e.g.,aluminium scrap, Recycled Content cut-off) with zero impacts under the cut-off version. Among the 12939 products, 3167 are unique ones, and 748 out of the 3167 unique RPs have >= 3 different act, belonging to a total of 208 different ISIC groups (EIDB v3.7 adopts <a href="https://unstats.un.org/unsd/classifications/Econ/ISIC.cshtml">ISIC Rev. 4</a>). For RPs produced by various transforming activities under different ISIC, they are assigned with a new ISIC – “various_ISIC”. 
+
+3. From the identified 748 RPs, eight electricity and heat production-related RPs are deleted for further calculation, each of which have thousands/hundreds of different act from various locations using different technologies.
+
+4. For the remaining 740 unique RPs with >=3 different act, Global Warming Potential (following IPCC 2013 GWP 100yr) for all act of each unique RP is calculated. GWP of a total of 5280 act have been recorded for the 740 RPs. The coefficient of variation (CoV) among different act for each unique RP is then recorded to show its within-product variation.
+
+Users can navigate the "EIDB_calc_CoV" page to explore those products with highest CoV, indicating that any arbitrary selection (e.g., regardless of production technolgies/location) of a background LCI process is highly discouraged. They are also presented by each ISIC group. In addition, users can select multiple RPs to compare their CoV. Users can find a full list of EIDB datasets <a href="https://susdata.shinyapps.io/search_eidb/">HERE</a>. 
+
+Users can download the processed CoV datasheet for each RP in the left panel below. In the dataset, "diff_act" indicates numbers of different act available for the RP. The final GWP results for all RPs are not presented here due to the EIDB license requirement for full access&use of data. Here we provided several examples on calcuated GWP for selected RPs, all of which indicate high CoV in the right panel below. 
+
+
+```{r echo=FALSE}
+sidebarPanel(downloadButton("download_uniqRF", "Download calculated data"))
+```
+
+```{r echo=FALSE}
+output$download_uniqRF <- downloadHandler(
+    filename = function() {
+      paste("EIDB_GWPcalc_RefProd_", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(data, file, row.names = FALSE)  
+    }
+  )
+```
+
+
+```{r echo=FALSE}
+sidebarPanel(selectInput("GWP_showid", "Choose a sample RP to show its GWP (kg CO2 eq. per default unit as in EIDB) from its different act", choices = c('aubergine', 'sugarcane', 'drying_grain', 'Na2SO4', 'plaster_mixing')), 
+             hr(),
+             imageOutput("photo"), width = 6)
+```
+
+```{r echo=FALSE}
+output$photo <- renderImage({
+    list(
+      src = file.path("images", paste0(input$GWP_showid, ".png")),
+      width = 525 #, height = 250
+    )
+  }, deleteFile = FALSE)
+```
+
+
+
+
+
+
+
+
+
+RPs_all_>=3act {data-orientation=columns data-icon="fa-table" data-navmenu="EIDB_calc_CoV"}
+=====================================  
+Column {.sidebar}
+-----------------------------------------------------------------------
+### RPs_overall
+Using the GWP results of 5280 act for the selected 740 unique RPs, we have recorded the CoV among different act for each unique RP.
+```{r echo=FALSE}
+hr()
+sliderInput("top_nCOV", "Select numbers of unique RPs with highest positive CoV, output in 'Plot_top_CoV':",
+                  min = 5, max = 60,
+                  value = c(20))
+hr()
+sliderInput("top_nCOV_neg", "Select numbers of unique RPs with highest negative CoV, output in 'Plot_top_CoV (negative)':",
+                  min = 5, max = 60,
+                  value = c(20))
+```
+
+
+Column {.tabset .tabset-fade data-width=800} 
+-----------------------------------------------------------------------
+### Plot_top_CoV
+```{r echo=FALSE}
+COVtop_ISIC <- reactive({
+  COVtop_ISIC = dplyr::arrange(data,desc(CoV),desc(ISIC))  #first order by COV, then order by ISIC
+  COVtop_ISIC = COVtop_ISIC[1:input$top_nCOV, ]      #select first n rows as user-defined 
+})
+
+renderPlot(ggplot(data = COVtop_ISIC(), aes(x=reorder(uniq_RefProd,desc(ISIC)), y=CoV, fill=factor(ISIC))) +  #to order axis by ISIC, not by name
+      geom_bar(stat="identity") + 
+      labs(title=paste("Top ", input$top_nCOV, " RPs with highest CoV; grouped by ISIC")) + 
+      xlab("products") +
+      guides(fill=guide_legend(title="ISIC")) +
+      geom_text(aes(label = round(CoV,1)), nudge_y = 0.15,color="black", size=4, check_overlap = T) +
+      coord_flip() +
+      theme(legend.position="bottom") 
+)
+```
+
+### Plot_top_CoV (negative)
+```{r echo=FALSE}
+COVtop_ISIC_neg <- reactive({
+  COVtop_ISIC_neg = dplyr::arrange(data,CoV)  #first order by COV, then order by ISIC
+  COVtop_ISIC_neg = COVtop_ISIC_neg[1:input$top_nCOV_neg, ]       
+})
+
+renderPlot(ggplot(data = COVtop_ISIC_neg(), aes(x=reorder(uniq_RefProd,desc(ISIC)), y=CoV, fill=factor(ISIC))) +  #to order axis by ISIC, not by name
+      geom_bar(stat="identity") + 
+      labs(title=paste("Top ", input$top_nCOV_neg, " RPs with highest negative CoV; grouped by ISIC")) + 
+      xlab("products") +
+      guides(fill=guide_legend(title="ISIC")) +
+      geom_text(aes(label = round(CoV,1)), nudge_y = -0.15,color="black", size=4, check_overlap = T) +
+      coord_flip() +
+      theme(legend.position="bottom") 
+)
+```
+
+
+
+### Table_CoV_all RPs
+CoV table for the total 740 unique RPs with >= 3 different act
+```{r echo=FALSE}
+renderDataTable(showtable, options = list(scrollX=T, scrollY='60vh', filter = 'top', fillContainer=FALSE, paging = T)
+)
+```
+
+
+
+
+RPs_byISIC {data-orientation=columns data-icon="fa-bar-chart" data-navmenu="EIDB_calc_CoV"}  
+=====================================  
+Column {.sidebar}
+-----------------------------------------------------------------------
+### RPs_by_ISIC
+Visualize the CoV for each unique RP within a selected ISIC group. Users are not suggested to plot numerous RPs under "various_ISIC" as they are not within the same product category (refer to the Intro page).
+```{r echo=FALSE}
+hr()
+selectInput("sel_ISIC", label = "Select an ISIC group to plot CoV for all its RPs.",
+            choices = uniq_ISIC, selected = uniq_ISIC[0])
+``` 
+
+
+Column {.tabset .tabset-fade } 
+-----------------------------------------------------------------------
+### Plot_CoV_selectedISIC
+```{r echo=FALSE}
+  
+COVplot_ISIC <- reactive({
+  COVplot_ISIC = data[which(data$ISIC==input$sel_ISIC), ]
+})
+
+renderPlot(
+      ggplot(data=COVplot_ISIC(), aes(x=uniq_RefProd, y=CoV))  + 
+      geom_bar(stat="identity",width = 0.6, fill="#56B4E9") + 
+      labs(title=paste("CoV of RPs in:", input$sel_ISIC, "(n for number of diff. act)", sep = " ")) +
+      xlab("RPs within the selected ISIC") +
+      guides(fill=guide_legend(title="ISIC")) +
+      geom_text_repel(aes(label=paste("n=", diff_act)), size = 4, color="black", hjust = 1) +
+      coord_flip() +
+      theme_minimal() 
+)
+```
+
+
+
+
+
+RPs_compare {data-orientation=columns data-icon="fa-search-plus" data-navmenu="EIDB_calc_CoV"}  
+=====================================  
+Column {.sidebar}
+-----------------------------------------------------------------------
+### RPs_comp
+Among those unique RPs with >= 3 different act, make your own selections to compare their within-product CoV:
+```{r echo=FALSE}
+hr()
+selectizeInput("sel_whichprod", label = "Select products:",
+            choices = data$uniq_RefProd, multiple = T, options = list(create = TRUE))
+``` 
+
+
+Column  
+-----------------------------------------------------------------------
+### Table_selected products
+```{r echo=FALSE}
+COV_comp <- reactive({
+  COV_comp = subset(data, uniq_RefProd %in% input$sel_whichprod)   #use %in% to filter out list, do not use '==' as diff. length in comp.
+})
+renderDataTable(COV_comp(), options = list(scrollX=T, scrollY='20vh', filter = 'top', fillContainer=TRUE, paging = T))
+```
+
+### Plot_CoV of selected products
+```{r echo=FALSE}
+
+COV_comp <- reactive({
+  validate(
+      need(input$sel_whichprod != "", "Please select products.")
+    )
+  COV_comp = subset(data, uniq_RefProd %in% input$sel_whichprod)   
+})
+
+renderPlot(
+      ggplot(data = COV_comp(), aes(x=reorder(uniq_RefProd,desc(ISIC)), y=CoV, fill=factor(ISIC)))  + 
+      geom_bar(stat="identity") + 
+      labs(title=  paste("CoV of:", paste(unlist(input$sel_whichprod), collapse='; '))) +
+      xlab("product") +
+      guides(fill=guide_legend(title="ISIC")) +
+      geom_text_repel(aes(label=paste("n=", diff_act)), size = 4, color="black", hjust = 1)+
+      #geom_text(aes(label=paste("n=", diff_act)),nudge_y = 0.05, color="black", size=4, check_overlap = T)+    
+      coord_flip() +
+      theme_minimal() #theme_classic() 
+)
+```
+
+
